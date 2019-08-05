@@ -2,7 +2,6 @@
 ini_set("display_errors", 1);
 error_reporting(E_ALL);
 $dsn='mysql:dbname=データベース名;host=localhost';
-$user = 'ユーザー名';
 $pass = 'パスワード';
 $pdo = new PDO($dsn, $user, $pass, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
 $sql = "CREATE TABLE IF NOT EXISTS テーブル名"
