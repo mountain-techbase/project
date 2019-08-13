@@ -149,7 +149,7 @@
         <input id="pac-input" class="controls" type="text" placeholder="Search Box">
         <div id="map"></div>
         <script type="text/javascript" src="script.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6FWqAGLasQ17ZFjUt5wLY_Jw28jWpMmg&libraries=places&callback=initAutocomplete"
+        <script src="https://maps.googleapis.com/maps/api/js?key=&libraries=places&callback=initAutocomplete"
                 async defer></script>
 
         <form action="mission7_index.php" method="POST">
