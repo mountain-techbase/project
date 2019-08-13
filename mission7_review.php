@@ -177,7 +177,7 @@ if(empty($_SESSION['USERID'])) {
                 navigator.geolocation.getCurrentPosition(success, error);//成功と失敗を判断
             }
         </script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6FWqAGLasQ17ZFjUt5wLY_Jw28jWpMmg"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key="></script>
 
         <form action="mission7_review.php" method="POST">
 
