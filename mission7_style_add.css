@@ -1,0 +1,162 @@
+/*タイトルアイコン表示*/
+h1 {
+  position: relative;/*相対位置*/
+  padding-left: 1.2em;/*アイコン分のスペース*/
+  line-height: 1.4;/*行高*/ 
+}
+h1:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f2ed";/*アイコンのユニコード*/
+  position: absolute;/s*絶対位置*/
+  font-size: 1em;/*サイズ*/
+  left: 0;/*アイコンの位置*/
+  top: 0;/*アイコンの位置*/
+  color: #00BCD4; /*アイコン色*/
+}
+
+
+
+/*タイトルリンク*/
+h1 a {
+    text-decoration: none;
+    color:#111;
+}
+
+
+
+/*メニューバー*/
+table{
+    width: 100%;
+}
+.menu {
+  list-style: none;
+  display: flex;
+}
+ 
+.menu li {
+  width: 260px;
+  text-align: center;
+  background-color: darkgray;
+  height: 50px;
+  line-height: 50px;
+  margin-right: 2px;
+}
+ 
+.menu li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 20px;
+}
+
+
+
+/*位置情報登録画面へ*/
+.btn-border-bottom {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.25em 0;
+  text-decoration: none;
+  color: #67c5ff;  
+}
+
+.btn-border-bottom:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 4px;
+  top:100%;
+  left: 0;
+  border-radius: 3px;
+  background:#67c5ff;
+  transition: .2s;
+}
+
+.btn-border-bottom:hover:before {
+  top: -webkit-calc(100% - 3px);
+  top: calc(100% - 3px);
+}
+
+
+
+/*口コミ投稿*/
+.box12{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #fff;
+    background: #999;
+}
+.box12 p {
+    margin: 0; 
+    padding: 0;
+}
+
+.mail{
+  position: relative;/*相対位置*/
+  padding-left: 1.2em;/*アイコン分のスペース*/
+  line-height: 1.4;/*行高*/   
+}
+
+.mail:before{
+   font-family: "Font Awesome 5 Free";
+  content: "\f0e0";/*アイコンのユニコード*/
+  position: absolute;/s*絶対位置*/
+  font-size: 1em;/*サイズ*/
+  left: 0;/*アイコンの位置*/
+  top: 0;/*アイコンの位置*/
+  color: #00BCD4; /*アイコン色*/   
+}
+
+h2 {
+  background: linear-gradient(transparent 70%, #a7d6ff 70%);
+}
+
+.btn-flat-simple {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #00BCD4;
+  background: #ECECEC;
+  transition: .4s;
+  font-size: 8px;
+}
+
+.btn-flat-simple:hover {
+  background: #00bcd4;
+  color: white;
+}
+
+.edit{
+  position: relative;/*相対位置*/
+  padding-left: 1.2em;/*アイコン分のスペース*/
+  line-height: 1.4;/*行高*/   
+}
+
+.edit:before{
+   font-family: "Font Awesome 5 Free";
+  content: "\f044";/*アイコンのユニコード*/
+  position: absolute;/s*絶対位置*/
+  font-size: 1em;/*サイズ*/
+  left: 0;/*アイコンの位置*/
+  top: 0;/*アイコンの位置*/
+  color: greenyellow; /*アイコン色*/   
+}
+
+.delete{
+  position: relative;/*相対位置*/
+  padding-left: 1.2em;/*アイコン分のスペース*/
+  line-height: 1.4;/*行高*/   
+}
+
+.delete:before{
+   font-family: "Font Awesome 5 Free";
+  content: "\f2ed";/*アイコンのユニコード*/
+  position: absolute;/s*絶対位置*/
+  font-size: 1em;/*サイズ*/
+  left: 0;/*アイコンの位置*/
+  top: 0;/*アイコンの位置*/
+  color: darkgray; /*アイコン色*/   
+}
